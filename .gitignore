@@ -25,13 +25,19 @@ target/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
 ### VS Code ###
 
-bin
+### Build folders
+build/
+target/
+bin/
+
+### Log files
+*.log
+results/
 
 # local config
 application-local.yml
